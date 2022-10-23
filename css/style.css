@@ -1,0 +1,241 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.main-background {
+  background-color: #DD5353;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.first-background {
+  background-color: #C9C8C8;
+}
+
+.second-background {
+  background-color: #d8d8d8;
+}
+
+.third-background {
+  background-color: #EDEDED;
+}
+
+.top-container {
+  padding: 1% 5%;
+}
+
+.cont-pad {
+  padding: 7rem;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  text-align: right;
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+@media all and (min-width: 768px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+/* Hero */
+
+.hero-container {
+  padding-bottom: 1rem;
+}
+
+.hero-title {
+  color: white;
+  padding: 5% 10%;
+}
+
+.hero-container .card {
+  margin: 1rem;
+  color: #DD5353;
+  transition: 0.3s;
+}
+
+.hero-container .card:hover {
+  cursor: pointer;
+  color: #B73E3E;
+}
+
+.hero-container .card-img-top {
+  padding: 2rem;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-lists {
+  padding: 5%;
+}
+
+.feature-lists i {
+  margin-bottom: 1rem;
+  color: #ef8172;
+  transition: 0.3s;
+}
+
+.feature-lists i:hover {
+  color: #ff4c68;
+}
+
+.feature-lists h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature-lists p {
+  color: #8f8f8f;
+}
+
+/* Shop */
+
+#shop-content .container-fluid {
+  padding: 5rem;
+}
+
+#shop-content .btn {
+  background-color: #DD5353;
+  border: none;
+  padding: 10px 0;
+}
+
+#shop-content .btn:hover {
+  background-color: #B73E3E;
+}
+
+/* Groom */
+
+#groom-question li, #groom-contact li {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+#groom-contact .btn {
+  background-color: #DD5353;
+  border: none;
+  margin: 1rem;
+  transition: 0.3s;
+}
+
+#groom-contact .btn:hover {
+  background-color: #B73E3E;
+}
+
+/* Training */
+
+#training-title h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+#training-title h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.question-1 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.question-2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+#training-pricing {
+  padding: 100px;
+}
+
+.pricing-list {
+  padding: 3% 2%;
+}
+
+/* location */
+
+.map-img {
+  max-width: 100%;
+}
+
+.loc-cont {
+  margin-bottom: 5rem;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 5% 10%;
+  color: #8f8f8f;
+}
+
+#footer i {
+  padding: 10px;
+  color: #8f8f8f;
+  transition: 0.3s;
+}
+
+#footer i:hover {
+  color: #DD5353;
+}
+
+#footer p {
+  margin-top: 20px;
+}
